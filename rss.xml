@@ -4,7 +4,7 @@
         <description><![CDATA[Український переклад книги «Functional-Light JS».]]></description>
         <link>http://lambdabooks.com/functional-light-js</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 26 Mar 2018 19:09:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Mar 2018 19:15:14 GMT</lastBuildDate>
         <atom:link href="http://lambdabooks.com/functional-light-js/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Denys Dovhan]]></author>
         <managingEditor><![CDATA[denysdovhan@gmail.com (Denys Dovhan)]]></managingEditor>
