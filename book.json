@@ -1,0 +1,43 @@
+{
+    "gitbook": "3.x.x",
+    "plugins": [
+      "edit-link", "github", "ga", "rss", "github-buttons"
+    ],
+    "pluginsConfig": {
+      "edit-link": {
+        "base": "https://github.com/LambdaBooks/functional-light-js/tree/master",
+        "label": "Редагувати"
+      },
+      "github": {
+        "url": "https://github.com/LambdaBooks/functional-light-js"
+      },
+      "ga": {
+        "token": "UA-40496885-11"
+      },
+      "rss": {
+        "title": "Простий функціональний JavaScript",
+        "description": "Український переклад книги «Functional-Light JS».",
+        "author": "Denys Dovhan",
+        "site_url": "http://lambdabooks.com/functional-light-js",
+        "feed_url": "http://lambdabooks.com/functional-light-js/rss.xml",
+        "managingEditor": "denysdovhan@gmail.com (Denys Dovhan)",
+        "webMaster": "denysdovhan@gmail.com (Denys Dovhan)",
+        "categories": [
+          "frontend",
+          "js",
+          "javascript",
+          "ecmascript",
+          "fp",
+          "functional",
+          "programming"
+        ]
+      },
+      "github-buttons": {
+        "repo": "LambdaBooks/functional-light-js",
+        "types": [
+          "star"
+        ],
+        "size": "small"
+      }
+    }
+  }

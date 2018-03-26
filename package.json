@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "name": "functional-light-js",
+  "version": "0.0.0",
+  "description": "Ukrainian translation of “Functional-Light JS”",
+  "author": "Denys Dovhan <denysdovhan@gmail.com> (https://denysdovhan.com/)",
+  "contributors": [
+    {
+      "name": "Mariannna Chupryna",
+      "email": "marianna2398an@gmail.com"
+    },
+    {
+      "name": "Alex Zakrytyi",
+      "email": "nevusdance@gmail.com"
+    }
+  ],
+  "scripts": {
+    "install": "gitbook install",
+    "start": "gitbook serve",
+    "build": "gitbook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaBooks/functional-light-js.git"
+  },
+  "keywords": [
+    "book",
+    "documentation",
+    "guide"
+  ],
+  "license": "CC BY-NC-ND 4.0",
+  "bugs": {
+    "url": "https://github.com/LambdaBooks/functional-light-js/issues"
+  },
+  "homepage": "https://github.com/LambdaBooks/functional-light-js#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.1.3"
+  },
+  "dependencies": {
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-ga": "^1.0.1",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-github-buttons": "^3.0.0",
+    "gitbook-plugin-rss": "^2.1.5"
+  }
+}
