@@ -4,7 +4,7 @@
         <description><![CDATA[Український переклад книги «Functional-Light JS».]]></description>
         <link>http://lambdabooks.com/functional-light-js</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 26 Mar 2018 19:15:14 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Mar 2018 19:28:31 GMT</lastBuildDate>
         <atom:link href="http://lambdabooks.com/functional-light-js/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Denys Dovhan]]></author>
         <managingEditor><![CDATA[denysdovhan@gmail.com (Denys Dovhan)]]></managingEditor>
@@ -18,7 +18,9 @@
         <category><![CDATA[programming]]></category>
         <item>
             <title><![CDATA[functional-light-js]]></title>
-            <description><![CDATA[Ukrainian translation of “Functional Light JS” by @getify]]></description>
+            <description><![CDATA[Twitter
+Facebook
+Stars]]></description>
             <link>http://lambdabooks.com/functional-light-js</link>
             <guid isPermaLink="true">http://lambdabooks.com/functional-light-js</guid>
             <dc:creator><![CDATA[Denys Dovhan]]></dc:creator>
