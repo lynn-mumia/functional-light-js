@@ -1,6 +1,3 @@
-# GitHub Pages Deployment
-# https://docs.travis-ci.com/user/deployment/pages/#Further-configuration
-
 language: node_js
 node_js: node
 script: npm run build
@@ -8,14 +5,16 @@ deploy:
   provider: pages
   local-dir: _book
   name: Denys Dovhan
-  email: email@denysdovhan.com
+  email: denysdovhan@gmail.com
   keep-history: true
   allow-empty-commit: true
   skip-cleanup: true
   on:
     branch: master
-  github-token:
-    secure: # GitHub token
+  github-token: "$GH_TOKEN"
 notifications:
   slack:
-    secure: # Slack token
+    secure: FgdyFj2oG0ETm/2FcLEz9RyOJOUJTnT7Mry12+izSChYCmiLrfqRJsURRV2kCuYqfFqnyexXa7rdCW7JAez3mOjyHdcZI89QVXR6Lxusuxh2YpL7LiN1LpbFP075YsWC4Vxe0SXnMhNRPNauLuNzdXVUYMaGZG75axYd3ZuckaNc4pKENwD4F27nW8qaiHcr9UT5iR+9z1Tb94dYTgE1S6D7mky0geQhe1tJZ7387S9pxemjpyWGv+5xZeE2N2YSBFufiBP48pHhjTryj99xmb25MtH5cAWHiMvFZkmUmrbNenSM70bZCrfTlvmnxVxITscri+WM/11Agx5+1p2mUayhJJsFvvkV0EAQABOdKyLgiLEQmChHRXiOb4YK7XRN2jBHMV7BQXUndeY6jvVoOfCUESeS8RzqgtKKDEAl6CTs5HrzCqOSD6DO/fDUJ6L8UuZe/6AhTgLDyxqhBQgRcBN5YvpI/C4rmTBSAkJFXCUVJHvGojypZ4A88k8v74jTOFwhJDW/XXPfmIE1ZNB+f1v/YHNYvEsNWF1Ka7Yn10VUCoKG7r1jo0LD0WCvlmljeq4sEaNdsdibRUda1YMOrunj0ia/5drDWesO7gVJERh6/iw9LT0C1/fEgv2F3MKT0yz7yWlfyIoUSchdeVzKDxJy2TV01XkOIKuSsgSOmcM=
+env:
+  global:
+    secure: gAm/A1lHpgxYnzDWpSS9IhAvbgsJIHm6PMf6svJ/S5+VXgBTl+KLF6pu+esHzD39JcmQ2Yv5HXfvvBnnc0f625W+VDD60k+uJs/E6bDXKGze8uMJYo8/9M8lqguo2qcD33obhrXAFSS0hKaVRJJrExIL/7K6DMvBvSh5VDoZs6gxy7WeuVA+VRt8lcHuHccAH9HVOqp5QsiOLtP8eGHOL4JbcwXJkzSHBAa/fszirLs0nKESG34WR9IHxA05I4EaRGichEG8d1OtDD/yC5OK5Y9pXB2sW8VpKjmT949uz0q6nJV48I08ubrb3h7G3wvU3sIqyU7M4kFZZnR3DjCTFKqXwn8Mg+kG2Xz4EEzPQZKZXsYrWX2dNJ4IzwIkZmVmqImvjFIpFcvT9T8zu6RQ02/TMptbocKc3JdaYfs8dpGqGUzO1KcymxfbS/hzh3KcTvgi+H9hdP8Nu4GydFNnODkmEync3cm45MOHo+tMJDD8AEp832GQUz1iEHv9Ozgsikx1cBXdr0g3bmzWLSW4E0fPT1UJxae4gd5wD7clKZSIXop2CD50JLa8Ybaef9iCgpOB4MBO/e/vju1pWRFvui0xI50Ucx1P23w79NKnQv7rexT5zyccHMixxdHJElUuhQOJBhUaWr508LqJZ0fawWshwxVpHFuiUMFu5gS806I=
