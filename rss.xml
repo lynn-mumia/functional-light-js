@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Простий функціональний JavaScript]]></title>
+        <description><![CDATA[Український переклад книги «Functional-Light JS».]]></description>
+        <link>http://lambdabooks.com/functional-light-js</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 26 Mar 2018 19:09:42 GMT</lastBuildDate>
+        <atom:link href="http://lambdabooks.com/functional-light-js/rss.xml" rel="self" type="application/rss+xml"/>
+        <author><![CDATA[Denys Dovhan]]></author>
+        <managingEditor><![CDATA[denysdovhan@gmail.com (Denys Dovhan)]]></managingEditor>
+        <webMaster><![CDATA[denysdovhan@gmail.com (Denys Dovhan)]]></webMaster>
+        <category><![CDATA[frontend]]></category>
+        <category><![CDATA[js]]></category>
+        <category><![CDATA[javascript]]></category>
+        <category><![CDATA[ecmascript]]></category>
+        <category><![CDATA[fp]]></category>
+        <category><![CDATA[functional]]></category>
+        <category><![CDATA[programming]]></category>
+        <item>
+            <title><![CDATA[functional-light-js]]></title>
+            <description><![CDATA[Ukrainian translation of “Functional Light JS” by @getify]]></description>
+            <link>http://lambdabooks.com/functional-light-js</link>
+            <guid isPermaLink="true">http://lambdabooks.com/functional-light-js</guid>
+            <dc:creator><![CDATA[Denys Dovhan]]></dc:creator>
+        </item>
+    </channel>
+</rss>
