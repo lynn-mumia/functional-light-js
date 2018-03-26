@@ -1,0 +1,21 @@
+# GitHub Pages Deployment
+# https://docs.travis-ci.com/user/deployment/pages/#Further-configuration
+
+language: node_js
+node_js: node
+script: npm run build
+deploy:
+  provider: pages
+  local-dir: _book
+  name: Denys Dovhan
+  email: email@denysdovhan.com
+  keep-history: true
+  allow-empty-commit: true
+  skip-cleanup: true
+  on:
+    branch: master
+  github-token:
+    secure: # GitHub token
+notifications:
+  slack:
+    secure: # Slack token
